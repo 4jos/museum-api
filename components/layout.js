@@ -1,6 +1,6 @@
 
 import { Container } from 'react-bootstrap';
-import MainNav from './MainNav';
+import MainNav from '@/components/mainnav';
 //        {props.children}
 
 export default function Layout(props) {
