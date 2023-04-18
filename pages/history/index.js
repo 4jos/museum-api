@@ -18,10 +18,10 @@ import { removeFromHistory } from '@/lib/userData';
 export default function History() {
     const [searchHistory, setSearchHistory] = useAtom(searchHistoryAtom);
 
-    
+        var router= useRouter();
+
     if(!searchHistory) return null;
 
-    var router= useRouter();
 
     console.log(searchHistory + "-");
 
